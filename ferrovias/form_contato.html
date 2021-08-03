@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Formulário Cadastro</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Kanit" rel="stylesheet">
+  </head>
+  <body>
+  <!-- Formulário -->
+    <form id="cadastro" method="get" action="index.html" target="_parent">
+      <fieldset>
+        <h3>Cadastro</h3>
+        <br>
+
+      <label>nome: <span class="obrigratorio">*</span></label>
+      <br>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required="" size="40">
+        <br>
+
+      <label>Email: <span class="obrigratorio">*</span></label>
+      <br>
+      <input type="email" id="email" name="email" required>
+      <br>
+
+      <label>data de nascimento: <span class="obrigratorio">*</span></label>
+        <br>
+        <input type="date" name="data" id="data" required="">
+        <br>
+
+        <label>Telefone</label>
+        <br>
+          <input type="number" name="telefone">
+        <br>
+
+        <label>Estado <span class="obrigratorio">*</span> </label>
+        <br>
+        <input list="estados" name="estado" required="" id="estado">
+            <datalist id="estados">
+                <option value="Acre (AC)">
+                <option value="Alagoas (AL)">
+                <option value="Amapá (AP)">
+                <option value="Amazonas (AM)">
+                <option value="Bahia (BA)">
+                <option value="Ceará (CE)">
+                <option value="Distrito Federal (DF)">
+                <option value="Espírito Santo (ES)">
+                <option value="Goiás (GO)">
+                <option value="Maranhão (MA)">
+                <option value="Mato Grosso (MT)">
+                <option value="Mato Grosso do Sul (MS)">
+                <option value="Minas Gerais (MG)">
+                <option value="Pará (PA)">
+                <option value="Paraíba (PB)">
+                <option value="Paraná (PR)">
+                <option value="Pernambuco (PE)">
+                <option value="Piauí (PI)">
+                <option value="Rio de Janeiro (RJ)">
+                <option value="Rio Grande do Norte (RN)">
+                <option value="Rio Grande do Sul (RS)">
+                <option value="Rondônia (RO)">
+                <option value="Roraima (RR)">
+                <option value="Santa Catarina (SC)">
+                <option value="São Paulo (SP)">
+                <option value="Sergipe (SE)">
+                <option value="Tocantins (TO)">
+            </datalist>
+        <br>
+      <label>senha: <span class="obrigratorio">*</span></label>
+        <br>
+        <input type="password" name="senha" id="senha" required="" size="40">
+        <br>
+
+      <label>confirmação de senha: <span class="obrigratorio">*</span></label>
+        <br>
+        <input type="password" name="conf_senha" id="conf_senha" required="" size="40">
+        <br>
+
+      <label>Sexo: <span class="obrigratorio">*</span></label>
+      <br>
+        <label>Masculino</label>
+        <input type="radio" name="sexo">
+        <label>Feminino</label>
+        <input type="radio" name="sexo">
+        <br>
+      <input type="submit" name="enviar">
+      <input type="reset" name="limpar" value="limpar"><br>
+      <caption><span class="obrigratorio">*</span> = obrigratório</caption>
+    </fieldset>
+    </form>
+
+
+  </body>
+</html>

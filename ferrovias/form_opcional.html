@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Formulário pesquisa</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Kanit" rel="stylesheet">
+  </head>
+  <body>
+    <form id="pesquisa">
+      <fieldset>
+        <h3>Pesquisa</h3>
+        <br>
+          <label>Você já andou de trem?</label>
+          <br>
+            <label>Sim</label>
+            <input type="radio" name="trem">
+            <label>Não</label>
+            <input type="radio" name="trem">
+          <br>
+          <label>Qual dos meios de transporte abaixo você utiliza frequentemente?</label>
+          <br><br>
+          <span class="form_esquerda"><label>Carro</label><input type="checkbox" name="meio"></span>
+          <br>
+          <span class="form_direita"><label>Trem/metro</label><input type="checkbox" name="meio"></span>
+          <br>
+          <span class="form_esquerda"><label>Bicicleta</label><input type="checkbox" name="meio"></span>
+        <br>
+           <span class="form_direita"><label>Avião</label><input type="checkbox" name="meio"></span>
+         <br>
+           <span class="form_esquerda"><label>Ônibus</label><input type="checkbox" name="meio"></span>
+          <br>
+           <span class="form_direita"><label>Barco</label><input type="checkbox" name="meio"></span>
+          <br>
+          <label>Qual sua cor favorita para carros, trens, bicicletas, ou outro meio de transporte?</label>
+          <br><br>
+          <input type="color" name="cor">
+          <br><br>
+          <label>Qual é o seu meio de tranporte dos sonhos?</label>
+          <select>
+            <option value="selecionar">Selecione uma opção</option>
+            <option value="teletransporte">capacidade de teletransporte</option>
+            <option value="voar">habilidade voar (sem aviões)</option>
+            <option value="jatinho">jatinho particular</option>
+            <option value="carro_autonomo">carro autonomo</option>
+            <option value="dinossauro">dinossauro voador</option>
+            <option value="carroça">carroça</option>
+            <option value="vassoura">vassoura de bruxa</option>
+            <option value="outro">outro</option>
+          </select>
+          <br><br>
+          <label>Deixe sua sugestão: </label>
+          <br><br>
+             <textarea rows="10" cols="50"></textarea>
+          <br><br>
+          <input type="submit" name="send" value="enviar">
+          <input type="reset" name="reset" value="limpar">
+
+    </fieldset>
+    </form>
+
+
+  </body>
+</html>

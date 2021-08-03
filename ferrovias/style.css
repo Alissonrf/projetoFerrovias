@@ -1,0 +1,324 @@
+/* reset*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #ff9933;
+}
+
+/*topo da página (header, nav, logo)*/
+#topo{
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #333333;
+	border-bottom: 3px solid #665F5C ;
+	color: #ff9933;
+}
+
+/*aparencia dos links*/
+a:link{
+	text-decoration: none;
+	color:#ff9933;
+}
+
+a:visited{
+	color: #ff9933;
+}
+
+a:hover{
+	color:#ff9933;
+	font-weight: bold;
+}
+
+#logo{
+	display: inline;
+	position: fixed;
+	left: 5%;
+	color:#ff9933;
+}
+
+#logo_foto{
+	float: left;
+	width: 5%;
+	height: auto;
+	position: fixed;
+	top: 1%;
+	left: 5.8%;
+
+}
+
+#logo_texto{
+	font-size: 33px;
+	font-family: 'Dosis', sans-serif;
+	position: fixed;
+	top: 1.5%;
+	left:10%;
+}
+
+
+nav{
+	position:fixed;
+	right: 60px;
+	top: 10px;
+	float: right;
+	font-family: 'Kanit', sans-serif;
+	font-size: 18px;
+	list-style: none;
+	text-align: center;
+	padding-top: 10px;
+
+}
+
+nav li{
+	display: inline;
+	padding-right: 50px;
+}
+/*conteudo da página (parte principal)*/
+
+/*slideshow*/
+#banner{
+	text-align: center;
+	height: 432px;
+	margin-bottom: 70px;
+}
+#s1,#s2,#s3,#s4,#s5{
+	position: absolute;
+	left: 0;
+	top:0;
+}
+
+/*conteudo de fato*/
+main{
+	font-family: 'Kanit', sans-serif;
+	padding-top: 40px;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	margin-top: 2px;
+	border: 3px solid #665F5C;
+	width: 80%;
+	background-color: #303030;
+}
+
+.direita{
+	float: right;
+	border: 2px solid #ff9933;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.esquerda{
+	float: left;
+	border: 2px solid #ff9933;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+.center{
+	display: block;
+	margin:0 auto;
+	border: 2px solid #ff9933;
+}
+
+article:nth-of-type(1){
+	border-top: 2px solid #ff9933;
+}
+article{
+	margin-bottom: 10px;
+	border-bottom: 2px solid #ff9933;
+}
+main p{
+	margin-bottom: 10px;
+	margin-left:  10px;
+	margin-right:  10px;
+	padding: 5px;
+}
+main h2{
+	text-align: center;
+	color: #ff9933;
+}
+main em,strong,u{
+	color:#ff9933;
+}
+main mark{
+	background-color: #ff9933;
+	color: white;
+}
+main h1,h3,h4,h5,h6,p,u,b,i{
+	color: white;
+}
+#dica{
+	background-color: #333333;
+	height: 40px;
+	width: 100px;
+	border-radius: 5px;
+	color: white;
+	margin-left: 10px;
+}
+
+ol,ul{
+	color: #ff9933;
+}
+#vantagens{
+	margin-left:40px;
+}
+table{
+	color: white;
+	margin: 0 auto;
+	border: 2px solid #ff9933;
+}
+td{
+	padding: 10px;
+}
+
+.titulo{
+	color: #ff9933;
+	font-weight: bold;
+}
+.risco{
+	border-bottom: 2px solid #ff9933;
+}
+
+
+#foto_contato{
+	text-align: center;
+	margin:10px 0 15px 0;
+}
+#euavsbrasil{
+	width: 400px;
+}
+
+
+#lista_paises{
+	margin-left: 50px;
+}
+#comparativo{
+	width: 600px;
+}
+
+
+/*tags do botão voltar ao topo*/
+
+.voltar_link{
+	padding: 10px;
+	color: white;
+	border-radius: 5px;
+	background-color: #333333;
+	border: 2px solid #665F5C;
+}
+
+.voltar_topo{
+	position: fixed;
+	bottom: 2%;
+	right: 0.5%;
+}
+
+
+
+
+/*tags de formulario*/
+#forms{
+	text-align: center;
+}
+#cadastro{
+	margin:0;
+	padding: 0;
+}
+form{
+	background-image: linear-gradient(to bottom,#e5892d,#ff9933);
+	width: 500px;
+	text-align: center;
+
+}
+
+label{
+	font-family: 'Dosis', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	padding: 5px;
+	margin: 10px;
+	color:#333333;
+ }
+caption{
+	font-family: 'Dosis', sans-serif;
+}
+input{
+	padding: 5px;
+	font-size: 14px;
+	border-radius: 2px;
+	margin-bottom: 30px;
+}
+
+input[type=checkbox]{
+}
+
+.obrigratorio{
+	color: red;
+}
+
+form h3{
+	font-family: 'Dosis', sans-serif;
+	margin-top: 20px;
+	font-size: 20px;
+	color: #333333;
+}
+.form_esquerda{
+	position: relative;
+	right: 52px;
+}
+.form_direita{
+	position: relative;
+	left: 52px;
+	bottom: 50px;
+
+}
+
+#form_contato{
+	margin-bottom: 148px;
+}
+#form_pesquisa{
+}
+
+/*rodapé da página*/
+footer{
+	height: 100%;
+	margin-top: 5px;
+	border-top: 3px solid #665F5C;
+	background-color: #333333;
+}
+
+#ifc_logo{
+	border: 2px solid #ff9933;
+	height:200px;
+	width:148px;
+	margin-right: 140px;
+	margin-top: 67px;
+	float:right;
+}
+
+footer h4,h5{
+	padding: 10px;
+	color: #ff9933;
+}
+footer h4{
+	margin-top: 10px;
+	font-size: 17px;
+}
+footer h5{
+	font-size: 15px;
+}
+footer h6{
+	padding-left: 16px;
+	color: white;
+	font-size: 13px;
+}
+
+footer h4,h5,h6{
+	font-family: 'Kanit', sans-serif;
+}
